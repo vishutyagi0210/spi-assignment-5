@@ -13,12 +13,12 @@ html,body{
 
 #main{
     /* this is for smooth scrolling cdn  */
+    background-color: #ffffff;
 }
 
 #nav{
     width: 100%;
     height: 15vh;
-    background-color: aqua;
     position: relative;
 }
 
@@ -49,8 +49,8 @@ a{
     bottom: 0;
     width: 25%;
     height: 100%;
-    background-color: #b75e2e9e;
-    filter: blur(120px);
+    background-color: #b75e2e86;
+    filter: blur(150px);
 }
 
 
@@ -113,5 +113,24 @@ a{
 
 
 /* nav-bar end here */
+
+#page-1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    padding-left: 9vw; 
+    padding-right: 12vw;
+    border: 1px solid white; 
+}
+
+
+#image{
+    margin-top: 1.5vw;
+    width: 100%;
+    height: 30vh;
+    border-radius: 15px;
+    background-image: url('./assets/photos/header_image.png');
+    background-size: cover;
+}
 
 
