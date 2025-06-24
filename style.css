@@ -245,10 +245,10 @@ a{
 #page-2{
     padding: 0 9vw;
     width: 100%;
-    height: 35vh;
+    height: 40vh;
     display: grid;
     /* background-color: red; */
-    grid-template-columns: 30% 30% 28%; 
+    grid-template-columns: 34% 33% 28%; 
     justify-content: center;
 }
 
@@ -268,8 +268,8 @@ a{
     margin-top: 15px;
     /* background-color: orange; */
     display: grid;
-    grid-template-columns: repeat(3 , 120px);
-    grid-template-rows: repeat(2 , 100px);
+    grid-template-columns: repeat(3 , 150px);
+    grid-template-rows: repeat(2 , 120px);
     row-gap: 15px;
     column-gap: 15px;
 }
@@ -277,17 +277,20 @@ a{
 #com-image-1{
     background-image: url('./assets/photos/image_gallary_image1.png');
     border: 2px solid white;
+    background-size: cover;
 }
 
 #com-image-2{
     background-image: url('./assets/photos/image_gallary_image2.png');
     border: 2px solid white;
+    background-size: cover;
 
 }
 
 #com-image-3{
     background-image: url('./assets/photos/image_gallary_image3.png');
     border: 2px solid white;
+    background-size: cover;
 
 
 }
@@ -295,18 +298,21 @@ a{
 #com-image-4{
     background-image: url('./assets/photos/image_gallary_image4.png');
     border: 2px solid white;
+    background-size: cover;
 
 }
 
 #com-image-5{
     background-image: url('./assets/photos/image_gallary_image5.png');
     border: 2px solid white;
+    background-size: cover;
 
 }
 
 #com-image-6{
     background-image: url('./assets/photos/image_gallary_image6.png');
     border: 2px solid white;
+    background-size: cover;
 
 }
 
@@ -328,8 +334,9 @@ a{
 }
 
 #con-img-1{
-    width: 120px;
-    height: 100px;
+    width: 150px;
+    height: 120px;
+    border: 2px solid white;
     margin-top: 15px;
     background-image: url('./assets/photos/Screenshot\ from\ 2025-06-24\ 06-15-04.png');
 }
@@ -377,5 +384,18 @@ a{
 }
 
 
+#footer{
+    margin-top: 20px;
+    padding: 0 15vw;
+    width: 100%;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: repeat(5,5%) 75%;
+}
 
+#cpy-right{
 
+    /* background-color: black; */
+    text-align: end;
+
+}
